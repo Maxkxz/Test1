@@ -11,9 +11,9 @@ jobs:
       - uses: actions/upload-artifactv4
         with:
           name: binaries
-            path: |
-              build/main
-              build/tests
+          path: |
+            build/main
+            build/tests
     
   tests:
     needs: [build]
